@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: #f9f9f9; color: #333; }
+    header, footer, section { 
+      padding: 20px; 
+    }
+    nav {
+      
+      justify-content: space-between;
+      background: #508fe7;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background: #75b3fa;
+    }
+    .hero .photo {
+      width: 200px;
+      height: 200px;
+      background: #75b3fa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 18px;
+    }
+    .photobundar {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #75b3fa; /* warna biru */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .hero .intro {
+      max-width: 500px;
+    }
+    .section {
+      background: #75b3fa;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ffffff;
+      text-align: center;
+    }
+    .foto-kegiatan {
+      width: 100px;
+      height: 100px;
+      background: #ddd;
+      display: inline-block;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #508fe7;
+      margin-top: 30px;
+      color: white;
+    }
+    .photo img {
+      width: 180px;
+      height: auto;
+      border-radius: 8px;
+      justify-content: space-between;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      max-width: 1000px;
+      margin: 20 px auto;
+    }
+    .teks {
+      flex: 1;
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size: 15px;
+      text-align: justify;
+    }
+
+  </style>
+</head>
+<body>
+      <style>
+        .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color:  #508fe7;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropbtn {
+      background-color: #508fe7;
+      color: white;
+      padding: 10px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+    }
+      </style>
+  <nav>
+
+    <div>
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Tentang Saya</a>
+      <a href="#portofolio">Portofolio</a>
+
+      <div class="dropdown">
+  <button class="dropbtn" style="font-weight: bold;">Lainnya</button>
+  <div class="dropdown-content">
+    <a href="https://www.instagram.com/ltlkh_/">Instagram</a>
+    <a href="https://web.facebook.com/?locale=id_ID&_rdc=1&_rdr#">Facebook</a>
+    <a href="https://www.tiktok.com/@ceiiinggg_">Tik Tok</a>
+  </div>
+
+    </div>
+  </nav>
+
+  <section id="beranda" class="hero">
+    <img src="foto 1.jpg" width="10%" height="15%" class="photobundar">
+    <div class="intro">
+      <h2 style="color: #ffffff;">Halo, saya <span style="font-weight:bold;">Lailatul Khoiriyah</span></h2>
+      <p style="color: #ffffff;">Seorang Mahasiswa Teknik Informatika Universitas Nahdlatul Ulama Sunan Giri Bojonegoro</p>
+    </div>
+  </section>
+
+  <section id="tentang" class="section">
+    <div class="container">
+      <div class="teks">
+        <h2 style="font-weight: bold; color: #ffffff;">Tentang Saya</h2>
+        <p style="color: #ffffff;">"Halo! Saya Lailatul Khoiriyah, seorang yang mencintai dunia Desain. 
+          Saya percaya bahwa kombinasi antara kreativitas dan ketelitian bisa menghasilkan karya yang tidak hanya indah, tapi juga bermakna. 
+          Setiap proyek bagi saya adalah kesempatan untuk belajar, berkembang, dan memberikan yang terbaik."</p><br>
+        <p style="color: #ffffff;">Saya adalah seorang profesional yang bersemangat dalam bidang desain grafis, dengan fokus pada menciptakan karya yang elegan dan fungsional. 
+          Saya selalu berusaha menghadirkan solusi kreatif yang memberikan nilai tambah. 
+          Saya percaya bahwa setiap detail memiliki peran penting dalam membangun pengalaman yang berkesan."</p><br>
+        <p style="color: #ffffff;">Memiliki nama lengkap Lailatul Khoiriyah yang lebih akrab di sapa iir. Lahir di Bojonegoro pada 14 November 2006 dan terlahir sebagai anak tunggal.</p>
+        <p style="color: #ffffff;">Merupakan lulusan SMK Technopreneurhip Tuban tahun 2024 dengan program keahlian Manajemen Perkantoran. Saat ini sedang menempuh pendidikan di Universitas Nahdlatul Ulama Sunan Giri Bojonegoro dengan Program Studi Teknik Informatika.</p>
+      </div>
+        <div class="photo img">
+          <img src="foto lain.jpg" width="100" height="125">
+        </div>
+    </div>
+  </section>
+
+  <section id="portofolio" class="section">
+    <style>
+      table, td, th {  
+  border: 3px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+  color: #ffffff;
+}
+    </style>
+    <h2 style="text-align: center; color: #ffffff">Portofolio</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama Kegiatan</th>
+          <th>Waktu Kegiatan</th>
+          <th>Bukti Kegiatan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td style="text-align: left;">Festifal Sains Nasional cabang Sejarah dan PKN</td>
+          <td>Medan, Desember 2022</td>
+          <td><a href="https://drive.google.com/drive/folders/1fZyvnZ-rQNp2Q_mc3dkdoh7a4unzlhcu?usp=drive_link" target="_blank">Lihat Bukti</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td style="text-align: left;">Ospanesia cabang Sejarah dan Bahasa Indonesia</td>
+          <td>Medan, November 2022</td>
+          <td><a href="https://drive.google.com/drive/folders/1aiBk6UpY8Mg2aciYbu1tXlsFCeIPeadW?usp=drive_link" target="_blank">Lihat Bukti</a></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td style="text-align: left;">PKL di PT Pelindo Marine Service Surabaya</td>
+          <td>Surabaya, 2022-2023</td>
+          <td><a href="https://drive.google.com/drive/folders/1MBQAxY2Wn_NM7HvTccAGtqYkocqjfETp?usp=drive_link" target="_blank">Lihat Bukti</a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td style="text-align: left;">Anggota Osis SMK Technopreneurship Tuban</td>
+          <td>Tuban, 2022 - 2023</td>
+          <td><a href="https://drive.google.com/file/d/1zkGVYdLYoZ2SNL6no_vlCNSzNBSMUrK7/view?usp=drive_link" target="_blank">Lihat Bukti</a></td>
+        </tr>
+        <!-- Tambah kegiatan lain di sini -->
+      </tbody>
+      
+    </table>
+  </section>
+  <style>
+     body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h2 {
+      margin-top: 40px;
+    }
+    .kontak-container {
+      display: flex;
+      margin-top: 40px;
+      gap: 30px;
+    }
+    form {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      font-size: 1em;
+    }
+    #map {
+      flex: 1;
+      background: #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2em;
+      color: white;
+    }
+  </style>
+
+    <style>
+      .opini-section {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .opini-section h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .card {
+    background: #508fe7;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+
+  .thumbnail {
+    background: #ddd;
+    height: 150px;
+    margin-bottom: 0.5rem;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+  }
+    </style>
+  <section class="section">
+  <div class="opini-section">
+    <h2 style="color: white;">Opini</h2>
+    <div class="grid">
+      <div class="card">
+        <img class="thumbnail" src="TA.jpg" alt="Acara temu Akademik" />
+        <div class="title">Temu Akademik Prodi TI 2025</div>
+      </div>
+      <div class="card">
+        <img class="thumbnail" src="Adab humanism.JPG" alt="Seminar" />
+        <div class="title">Seminar Adab Humanism and Intellectual</div>
+      </div>
+      <div class="card">
+        <img class="thumbnail" src="Tari.jpg" alt="UKM Tari" />
+        <div class="title">Workshop Peningkatan Kualitas Penari</div>
+      </div>
+      <div class="card">
+        <img class="thumbnail" src="BC.JPG" alt="Bootcamp" />
+        <div class="title">Bootcamp Staff Magang HMP TI</div>
+      </div>
+      <div class="card">
+        <img class="thumbnail" src="Seminar AI.heic" alt="Seminar AI" />
+        <div class="title">Seminar Artificial Intelligence</div>
+      </div>
+      <div class="card">
+        <img class="thumbnail" src="IC.JPG" alt="IT CAMP 2024" />
+        <div class="title">IT Camp</div>
+      </div>
+      <div class="card">
+        <img class="thumbnail" src="PS.jpg" alt="PS" />
+        <div class="title">Temu Anggota UKM Public Speaking</div>
+      </div>
+      <div class="card">
+        <img class="thumbnail" src="PKKMB2024.jpg" alt="PKKMB" />
+        <div class="title">PKKMB 2024</div>
+      </div>
+      <div class="card">
+        <img class="thumbnail" src="IPPNU.png" alt="ippnu" />
+        <div class="title">PK IPNU IPPNU Unugiri</div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="section">
+    <h2 style="text-align: center; color: #ffffff;">Hubungi Saya</h2>
+  <div class="kontak-container">
+    <form>
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Nama" required />
+      <input type="text" placeholder="Subjek" />
+      <textarea placeholder="Isi Pesan" rows="4"></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+    <div>
+      <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249.98238970602094!2d111.86051171468641!3d-7.201099479813051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1745464491380!5m2!1sen!2sid" 
+        width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      </div>
+    
+  </div>
+  </section>
+
+  <footer>
+    <p>Copyright by Lailatul Khoiriyah</p>
+  </footer>
+</body>
+</html>
